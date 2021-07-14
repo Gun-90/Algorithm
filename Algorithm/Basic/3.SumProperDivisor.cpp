@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
-int main()
+
+// 진약수의 합
+void SumProperDivisor()
 {
 	int N, sum = 1;
 	cin >> N;
@@ -14,6 +16,4 @@ int main()
 		}
 	}
 	cout << " = " << sum;
-	return 0;
-
 }

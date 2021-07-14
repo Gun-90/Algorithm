@@ -263,3 +263,9 @@ FakesAssemblies/
 *.db-shm
 *.db-wal
 *.opendb
+Algorithm/main.cpp
+CppProperties.json
+.vs/ProjectSettings.json
+.vs/slnx.sqlite
+.vs/VSWorkspaceState.json
+Algorithm/.vs/Algorithm/config/applicationhost.config
