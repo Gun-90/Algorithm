@@ -4,7 +4,7 @@ void CalculateAge()
 {
 	char registrationNum[20];
 	int year, age;
-	scanf("%s", &registrationNum);
+	scanf_s("%s", &registrationNum, sizeof(registrationNum));
 	year = (registrationNum[0] - 48) * 10 + (registrationNum[1] - 48);
 	if (registrationNum[7] == '1' || registrationNum[7] == '2')
 	{
